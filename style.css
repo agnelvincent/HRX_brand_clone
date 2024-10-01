@@ -1,0 +1,600 @@
+*{
+    margin: 0;
+    
+}
+
+
+.header{
+    
+    padding-top: 4px;
+    width: 100%;
+    height: 80px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.listitems{
+    display: flex;
+    margin-right: 4px;
+    padding: 10px;
+    font-family: avenir;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+
+.logo{
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 65px;
+    height: 33px;
+    
+}
+
+.login{
+    width: 80px;
+    height: 45px;
+    background-color: #e74747;
+    color: #fff;
+    margin-top: 20px;
+    margin-right: 100px;
+    border: none;
+}
+
+
+.bgvideo{
+    width: 100%;
+    height: 50%;
+}
+
+
+.midbody{
+    width: 100%;
+    height: 500px;
+}
+
+
+.part{
+    display: flex;
+    width: 95%;
+    height: 100px;
+    margin-left: 45px;
+    margin-top: 70px;
+    
+}
+
+.midcontent1{
+    width: 50%;
+    height: 40px;
+}
+
+.viewbut{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    height: 40px;
+}
+
+.collection{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: avenir;
+    color: rgba(239,68,68,1);
+}
+
+.redefine{
+    font-family: 'poppins';
+    letter-spacing: 1px;
+    font-size: 28px;
+}
+
+.viewall{
+    
+    width: 90px;
+    height: 40px;
+    background-color: #e74747;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 220px;
+    margin-left: 45px;
+    gap: 18px;
+}
+
+.brandimg{
+    width: 100%;
+    height: auto;
+}
+
+.kabir{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    background-image: url(https://nimbuscluster.blob.core.windows.net/server01/hrx/HRX/kabir.png);
+    background-size: cover;
+    background-position: center;
+    justify-content: end;
+    align-items: center;
+}
+
+
+
+.kabir .kabirtext{
+    color: #fff;
+    margin-right: 70px;
+    margin-left: 10px;
+    text-indent: 2px;
+    letter-spacing: 1px;
+}
+
+.kabirtext h3{
+    color: rgba(239,68,68,1);
+}
+
+.kabirtext h1,h5{
+    font-family: 'poppins';
+    margin-bottom: 3px;
+}
+
+.kabirtext p{
+    margin-top: 15px;
+    font-family: avenir;
+    opacity: .75;
+    font-size: 14px;
+    gap: 2px;
+}
+
+.challengediv{
+    display: flex;
+    width: auto;
+    height: auto;
+    border-left: #e74747 solid 45px;
+    border-right: #e74747 solid 45px;
+}
+
+.challengediv img{
+    margin: 50px;
+    width: 670px;
+    height: 479px;
+}
+
+.challengetext{
+    text-align: justify;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-right: 75px;
+}
+
+.mind{
+    font-family: avenir;
+    font-size: 16px;
+    font-weight: 700px;
+    color: #e74747;
+}
+
+.h2ch{
+    font-family: 'poppins';
+    font-weight: -500;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.cap , .para{
+    font-family: avenir;
+    font-size: 15px;
+    color: #3d3d3d;
+    opacity: .75;
+    letter-spacing: 2px;
+}
+
+.para{
+    text-align: justify;
+    line-height: 1.75rem;
+    letter-spacing: 0.01px;
+}
+
+.cont{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    column-gap: 80px;
+}
+
+.cont1{
+    color: #3d3d3d;
+    font-size: 27px;
+    font-family: 'poppins';
+}
+
+.cont2{
+    color: #3d3d3d;
+    font-family: avenir;
+    opacity: .75;
+}
+
+.find{
+    margin-top: 20px;
+    color: #fff;
+    background-color: #e74747;
+    border: none;
+    width: 170px;
+    height: 40px;
+    font-weight: bold;
+    justify-items: center;
+}
+
+.comm{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-items: end;
+    background-image:  linear-gradient(rgba(0, 0 ,0, 0.4), rgba(0 ,0, 0, 0.6)),url(https://nimbuscluster.blob.core.windows.net/server01/hrx/HRX/banner-new.png);
+}
+
+    
+
+.comm .commtext{
+    text-align: center;
+    left: 0;
+    color: white;
+    margin-left : 400px; 
+    margin-bottom: 100px;
+    gap: 25px;
+}
+
+.commtext h4{
+    color: rgba(239,68,68,1);
+    font-family: 'poppins';
+}
+
+.commtext h2{
+    font-family: 'poppins';
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+.commtext p{
+    font-family: avenir;
+    font-size: 14px;
+}
+
+.joinn{
+    width: 210px;
+    height: 50px;
+    color: #fff;
+    background-color: #e74747;
+    border: none;
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: bold;
+    justify-items: center;
+}
+
+.partners{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.partners .parth{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.parth h4{
+    color: rgba(239, 68, 68, 1);
+}
+
+.parth h2{
+    color: black;
+    font-size: 28px;
+    font-family: 'poppins';
+}
+
+.partgrid{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-left: 3px;
+    
+}
+
+.partgrid img{
+    height: 200px;
+    width: 150px;
+}
+
+.press{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 500px;
+    background-color: #181818;
+}
+
+.press .arrow{
+    display: flex;
+    width: 5%;
+    height: 468px;
+    color: white;
+    align-items: center;
+}
+
+.arrow p{
+    font-family: avenir;
+    font-size: 50px;
+    color: #e74747;
+}
+.press .presst{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 468px;
+    align-items: start;
+    justify-content: center;
+}
+
+.presst h4{
+    color: #e74747;
+    font-family: 'poppins';
+}
+
+.presst h1{
+    font-family: 'poppins';
+    color: #fff;
+}
+
+.presst p{
+    color: #fff;
+    font-family: avenir;
+}
+
+.press img{
+    width: 50%;
+    height: 500px;
+}
+
+.fitness{
+    display: flex;
+    width: auto;
+    height: 490px;
+    border-left: #e74747 solid 45px;
+    border-right: #e74747 solid 45px;
+    font-family: 'poppins';
+}
+
+.fitness h3{
+    color: #e74747;
+}
+
+.fittxt .mm{
+    color: #3d3d3d;
+    opacity: .75;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.fitness h1{
+    opacity: 0.7;
+}
+
+.fitness p{
+    color: #3d3d3d;
+    font-family: avenir;
+    opacity: .75;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.fittxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+
+.fitgrid1{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: end;
+    margin-top: 31px;
+    margin-right: 20px;
+    width: 230px;
+    height: 430px;
+    background-image: url(https://nimbuscluster.blob.core.windows.net/server01/hrx/HRX/Podcast.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.fitgrid2{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: end;
+    margin-top: 31px;
+    margin-right: 20px;
+    width: 230px;
+    height: 430px;
+    background-image: url(https://nimbuscluster.blob.core.windows.net/server01/hrx/HRX/Workout1.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.fitgrid3{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: end;
+    margin-top: 31px;
+    width: 230px;
+    height: 430px;
+    background-image: url(https://nimbuscluster.blob.core.windows.net/server01/hrx/HRX/Blogs.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+
+.release{
+    padding-top: 50px;
+    width: 100%;
+    height: 550px;
+    justify-content: center;
+    background-image:url(https://nimbuscluster.blob.core.windows.net/server01/hrx/HRX/bannerr.png), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,9));
+}
+
+.retxt{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        margin-top: 60px;
+}
+
+.retxt h5{
+    color: #e74747;
+    font-family: 'poppins';
+}
+
+.retxt h1{
+    color: #fff;
+    font-family: 'poppins';
+}
+
+.reimg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.dam1, .dam2, .dam3, .dam4{
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.dam1{
+    background-image: url(https://hrxbrand.com/img/hrx_cafe.78f38726.jpg);
+}
+
+.dam2{
+    background-image: url(https://hrxbrand.com/img/hrx_eatfit.363caa4d.jpg);
+}
+
+.dam3{
+    background-image: url(https://hrxbrand.com/img/hrx_gym.6db8d773.jpg);
+}
+
+.dam4{
+    background-image:url(https://hrxbrand.com/img/hrx_store.be6d6beb.jpg) ;
+}
+
+.damm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 40px;
+    width: 300px;
+    background-color: rgba(0 ,0, 0, 0.5);
+}
+
+.damm:hover{
+    background-color: #e74747;
+}
+
+
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .ico{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 100px;
+}
+
+.ico img{
+    height: 150px;
+    width: 280px;
+}
+.icoflex{
+    display: flex;
+    gap: 37px;
+}
+
+.icoflex img{
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.svgi{
+    width: 30px;
+    height: 30px;
+    color: white;
+    margin-top: 30px;
+}
+
+.flist {
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    margin-top: 60px;
+    gap: 75px;
+}
+
+.flist ul{
+    list-style: none;
+    gap: 25px;
+}
+
+.flist .fhh{
+    color: #e74747;
+    font-family: 'poppins';
+}
+
+.flist li{
+    color: #adadad;
+    font-family: avenir;
+    font-size: 14px;
+    margin-top: 15px;
+    
+}
